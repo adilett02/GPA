@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/GPA/static/css/main.5e28c666.css",
+    "main.js": "/GPA/static/js/main.84c66ec3.js",
+    "static/js/787.7ab7e835.chunk.js": "/GPA/static/js/787.7ab7e835.chunk.js",
+    "static/media/logo.png": "/GPA/static/media/logo.d18740ab11dc4de3162b.png",
+    "index.html": "/GPA/index.html",
+    "main.5e28c666.css.map": "/GPA/static/css/main.5e28c666.css.map",
+    "main.84c66ec3.js.map": "/GPA/static/js/main.84c66ec3.js.map",
+    "787.7ab7e835.chunk.js.map": "/GPA/static/js/787.7ab7e835.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e28c666.css",
+    "static/js/main.84c66ec3.js"
+  ]
+}
