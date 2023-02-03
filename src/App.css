@@ -1,0 +1,122 @@
+html, body {
+    font-family: sans-serif;
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0;
+}
+.header img{
+    width: 70px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.lessons_num{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.lessons_num select{
+    margin-left: 10px;
+}
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+    font-size: 18px;
+}
+.table th {
+    font-weight: bold;
+    padding: 5px;
+    background: #efefef;
+    border: 1px solid #dddddd;
+    text-align: inherit;
+}
+.table td {
+    border: 1px solid #dddddd;
+    padding: 10px 5px;
+}
+input, select {
+    height: 25px;
+    font-size: 16px;
+}
+input.subject-name {
+    width: 120px;
+}
+.button__list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 20px;
+    padding-right: 10px;
+}
+.btn {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0.05rem 0.05rem 0.2rem #ccc;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn_calculate{
+    color: #fff;
+    background: #33a5d1;
+}
+.btn_clean{
+    color: #000;
+}
+.warning{
+    background-color: #ffc107;
+}
+.result{
+    margin-top: 30px;
+}
+.result_table{
+    text-align: center;
+}
+.result_table td{
+    font-weight: bold;
+}
+
+
+@media (max-width: 992px) { 
+    h1{
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 768px) { 
+    .header img{
+        width: 60px;
+    }
+    h1{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 576px) { 
+    .header img{
+        width: 45px;
+    }
+    h1{
+        font-size: 16px;
+    }
+    .btn{
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+    .table{
+        font-size: 16px;
+    }
+    input, select {
+        height: 20px;
+        font-size: 14px;
+    }
+ }
